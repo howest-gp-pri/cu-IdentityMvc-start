@@ -2,9 +2,9 @@
 
 #nullable disable
 
-namespace RateACourse.Web.Migrations
+namespace RateACourse.Core.Migrations
 {
-    public partial class first : Migration
+    public partial class First : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

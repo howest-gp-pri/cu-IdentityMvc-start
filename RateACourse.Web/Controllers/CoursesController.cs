@@ -5,8 +5,8 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using H06_03.RateACourse.Core.Entities;
-using H06_03_RateACourse.Web.Data;
+using RateACourse.Core.Entities;
+using RateACourse.Core.Data;
 using RateACourse.Web.ViewModels;
 using System.Net.Http.Headers;
 

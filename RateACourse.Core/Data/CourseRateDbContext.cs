@@ -1,11 +1,11 @@
-﻿using H06_03.RateACourse.Core.Entities;
+﻿using RateACourse.Core.Entities;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace H06_03_RateACourse.Web.Data
+namespace RateACourse.Core.Data
 {
     public class CourseRateDbContext : DbContext
     {

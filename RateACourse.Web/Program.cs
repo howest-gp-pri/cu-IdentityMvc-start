@@ -1,4 +1,4 @@
-using H06_03_RateACourse.Web.Data;
+using RateACourse.Core.Data;
 using Microsoft.EntityFrameworkCore;
 
 namespace oe_h05_EFCore_RateAMovie_opl_Afst

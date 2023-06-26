@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace H06_03.RateACourse.Core.Entities
+namespace RateACourse.Core.Entities
 {
     public abstract class BaseEntity
     {
