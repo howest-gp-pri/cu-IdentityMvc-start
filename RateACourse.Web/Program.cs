@@ -11,7 +11,7 @@ namespace oe_h05_EFCore_RateAMovie_opl_Afst
 
             // Add services to the container.
             //Add entity framework database
-            builder.Services.AddDbContext<CourseRateDbContext>(
+            builder.Services.AddDbContext<ApplicationDbContext>(
                  options => options.UseSqlServer(builder.Configuration.GetConnectionString("CourseRateDb")));
 
             builder.Services.AddControllersWithViews();
@@ -32,7 +32,10 @@ namespace oe_h05_EFCore_RateAMovie_opl_Afst
             app.UseRouting();
 
             app.UseAuthorization();
-
+            app.MapControllerRoute(
+                name: "Areas",
+                pattern: "{area:exists}/{controller=Account}/{action=Index}/{id?}"
+                );
             app.MapControllerRoute(
                 name: "default",
                 pattern: "{controller=Home}/{action=Index}/{id?}");

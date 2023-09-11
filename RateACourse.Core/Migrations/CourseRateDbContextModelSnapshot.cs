@@ -9,7 +9,7 @@ using RateACourse.Core.Data;
 
 namespace RateACourse.Core.Migrations
 {
-    [DbContext(typeof(CourseRateDbContext))]
+    [DbContext(typeof(ApplicationDbContext))]
     partial class CourseRateDbContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)

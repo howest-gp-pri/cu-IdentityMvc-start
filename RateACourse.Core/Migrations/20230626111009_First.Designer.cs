@@ -10,7 +10,7 @@ using RateACourse.Core.Data;
 
 namespace RateACourse.Core.Migrations
 {
-    [DbContext(typeof(CourseRateDbContext))]
+    [DbContext(typeof(ApplicationDbContext))]
     [Migration("20230626111009_First")]
     partial class First
     {

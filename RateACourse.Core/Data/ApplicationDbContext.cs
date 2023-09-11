@@ -7,13 +7,13 @@ using System.Threading.Tasks;
 
 namespace RateACourse.Core.Data
 {
-    public class CourseRateDbContext : DbContext
+    public class ApplicationDbContext : DbContext
     {
         public DbSet<Course> Courses { get; set; }
         public DbSet<Student> Students { get; set; }
         public DbSet<StudentCourseReview> StudentCourseReviews { get; set; }
 
-        public CourseRateDbContext(DbContextOptions<CourseRateDbContext> options) : base(options)
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
         
         }

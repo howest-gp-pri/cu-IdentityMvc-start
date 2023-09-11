@@ -14,9 +14,9 @@ namespace RateACourse.Web.Controllers
 {
     public class CoursesController : Controller
     {
-        private readonly CourseRateDbContext _courseRateDbContext;
+        private readonly ApplicationDbContext _courseRateDbContext;
 
-        public CoursesController(CourseRateDbContext courseRateDbContext)
+        public CoursesController(ApplicationDbContext courseRateDbContext)
         {
             _courseRateDbContext = courseRateDbContext;
         }
